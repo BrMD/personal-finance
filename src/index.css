@@ -1,9 +1,22 @@
 body {
   margin: 0;
   padding: 0;
-
+  --green--dark-: #0bad41;
+  --green--light-: #04ff58;
+  --red--light-: #ff0000;
+  --black--olive: #41463d;
+  --tropical--indigo-: #9d8df1;
+  --periwinkle--light-: #b8cdf8;
+  --aquamarine--light-: #95f2d9;
+  --aquamarine-: #1cfeba;
   /*
   font-family: 'Hind', sans-serif;
   font-family: 'Lato', sans-serif;
   font-family: 'Mukta', sans-serif; */
+}
+.errorFormColor {
+  color: var(--red--light-);
+}
+.normalFormColor {
+  color: var(--aquamarine--light-);
 }
