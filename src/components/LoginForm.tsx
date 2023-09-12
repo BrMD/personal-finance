@@ -1,5 +1,4 @@
 import styled from "styled-components";
-// import { zod } from "Zod";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { z } from "zod";
 import { useForm, SubmitHandler } from "react-hook-form";
@@ -11,7 +10,7 @@ const loginSchema = z.object({
 
 type LoginSchema = z.infer<typeof loginSchema>;
 
-function Form() {
+function LoginForm() {
   const {
     register,
     handleSubmit,
@@ -108,4 +107,4 @@ const SpanCreateAccount = styled.span`
     color: var(--aquamarine-);
   }
 `;
-export default Form;
+export default LoginForm;
