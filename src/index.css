@@ -4,7 +4,7 @@ body {
   --green--dark-: #0bad41;
   --green--light-: #04ff58;
   --red--light-: #ff0000;
-  --black--olive: #41463d;
+  --black--olive-: #41463d;
   --tropical--indigo-: #9d8df1;
   --periwinkle--light-: #b8cdf8;
   --aquamarine--light-: #95f2d9;
@@ -24,9 +24,9 @@ body {
 .backgroundDashboard {
   background-color: var(--aquamarine-);
 }
-.menuActive {
+.active {
   width: 250px;
 }
-.menuDeactivated {
+/* .menuDeactivated {
   width: 0px;
-}
+} */

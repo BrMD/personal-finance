@@ -104,7 +104,7 @@ const SpanCreateAccount = styled.span`
   font-family: "Mukta", sans-serif;
   && > a {
     text-decoration: none;
-    color: var(--aquamarine-);
+    color: var(--tropical--indigo-);
   }
 `;
 export default LoginForm;
