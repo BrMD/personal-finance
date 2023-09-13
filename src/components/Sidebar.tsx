@@ -95,6 +95,7 @@ const ImgUser = styled.img`
   margin-top: 6px;
 `;
 const SidebarDiv = styled.div`
+  border-right: 2px solid var(--tropical--indigo-);
   font-family: "Mukta", sans-serif;
   position: fixed;
   top: 0;
@@ -131,7 +132,7 @@ const ButtonSidebar = styled.button`
   cursor: pointer;
   position: absolute;
   border: none;
-  top: 2%;
+  top: 5%;
   left: 1.5%;
 `;
 const LineButton = styled.div`
