@@ -27,6 +27,31 @@ body {
 .active {
   width: 250px;
 }
-/* .menuDeactivated {
-  width: 0px;
-} */
+.saldoAtual {
+  background-color: #20b3f780;
+  transition: all 0.4s;
+}
+.saldoAtual:hover {
+  background-color: #20b3f7;
+}
+.receitas {
+  background-color: #04ff43ab;
+  transition: all 0.4s;
+}
+.receitas:hover {
+  background-color: #04ff43;
+}
+.despesas {
+  background-color: #ff0000ab;
+  transition: all 0.4s;
+}
+.despesas:hover {
+  background-color: #ff0000cc;
+}
+.cartaoDeCredito {
+  background-color: #ffe6048f;
+  transition: all 0.4s;
+}
+.cartaoDeCredito:hover {
+  background-color: #ffe604;
+}
